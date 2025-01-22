@@ -1,8 +1,14 @@
+import reactLogo from '/src/assets/react.svg'
+import './Header.css';
+
 function Header() {
   return (
-    <header>        
+    <header>
+      <a href="https://react.dev" target="_blank">
+        <img src={reactLogo} className="logo react" alt="React logo" />
+      </a> 
       <nav>
-        <ul>
+        <ul className="nav-list">
           <li>Pricing</li>
           <li>About</li>
           <li>Contacts</li>
