@@ -9,6 +9,25 @@ header {
     .logo {
         width: 50px;
     }
+
+    .logo-link {
+        /* display: flex;
+        place-items: center; */
+        transition: color 100ms ease-in;
+        cursor: pointer;
+
+        span {
+            font-weight: bolder;
+            font-size: 1.6rem;
+            color: #00d8ff;
+            padding-left: .5rem;
+            vertical-align: middle;
+
+            &:hover {
+                color: #00abca;
+            }
+        }
+    }
 }
 
 .nav-list {

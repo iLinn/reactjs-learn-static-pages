@@ -4,12 +4,13 @@ import './Header.css';
 function Header() {
   return (
     <header>
-      <a href="https://react.dev" target="_blank">
+      <a href="https://react.dev" target="_blank" className="logo-link">
         <img src={reactLogo} className="logo react" alt="React logo" />
+        <span>React</span>
       </a> 
       <nav>
         <ul className="nav-list">
-          <li>Pricing</li>
+          <li>Career</li>
           <li>About</li>
           <li>Contacts</li>
         </ul>
