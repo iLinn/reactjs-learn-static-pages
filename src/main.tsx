@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import Header from './components/header/Header';
 import MainContent from './components/main-component/Main';
+import Footer from './components/footer/Footer';
 // import App from './components/app/App.tsx'
 
 createRoot(document.getElementById('root')!).render(
@@ -10,5 +11,6 @@ createRoot(document.getElementById('root')!).render(
     {/* <App /> */}
     <Header />
     <MainContent />
+    <Footer />
   </StrictMode>,
 )
