@@ -11,8 +11,8 @@ header {
     }
 
     .logo-link {
-        /* display: flex;
-        place-items: center; */
+        display: flex;
+        place-items: center;
         transition: color 100ms ease-in;
         cursor: pointer;
 
