@@ -1,4 +1,4 @@
-import reactLogo from '/src/assets/react.svg'
+import reactLogo from '/src/assets/react.svg';
 import './Header.css';
 
 function Header() {
