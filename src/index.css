@@ -37,13 +37,6 @@ body {
     flex-grow: 1;
   }
 
-  header {
-    max-height: fit-content;
-  }
-
-  footer {
-    max-height: 1.5rem;
-  }
 }
 
 h1 {
@@ -96,6 +89,19 @@ main {
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.unordered-list {
+    max-width: 30rem;
+
+    li {
+        margin-block: 1rem;
+
+        &::marker {
+            color: #646cff;
+            font-size: 1.5rem;
+        }
+    }
 }
 
 @keyframes logo-spin {

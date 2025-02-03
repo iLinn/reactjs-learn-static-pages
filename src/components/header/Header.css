@@ -1,5 +1,6 @@
 header {
     display: flex;
+    max-height: 4rem;
     flex: 1 1 10%;
     align-items: center;
     padding: 0 1rem;
